@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1427C87D2ADD060D0040E03D /* UpcomingMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427C87B2ADD05CC0040E03D /* UpcomingMovies.swift */; };
+		1427C87E2ADD060D0040E03D /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427C87C2ADD05CC0040E03D /* Slider.swift */; };
+		1427C87F2ADD060D0040E03D /* RecentlyWatched.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427C87A2ADD05CC0040E03D /* RecentlyWatched.swift */; };
+		1427C8802ADD060D0040E03D /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427C8782ADD05CC0040E03D /* Main.swift */; };
+		1427C8812ADD060D0040E03D /* UpcomingSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427C8762ADD05CC0040E03D /* UpcomingSeries.swift */; };
+		1427C8822ADD060D0040E03D /* HomeContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427C8772ADD05CC0040E03D /* HomeContent.swift */; };
+		1427C8832ADD060D0040E03D /* VideoStreamingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427C8792ADD05CC0040E03D /* VideoStreamingApp.swift */; };
+		1427C88B2ADD06A30040E03D /* Genrelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427C8852ADD06A20040E03D /* Genrelist.swift */; };
+		1427C88C2ADD06A30040E03D /* Directorlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427C8862ADD06A20040E03D /* Directorlist.swift */; };
+		1427C88D2ADD06A30040E03D /* Actorlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427C8872ADD06A20040E03D /* Actorlist.swift */; };
+		1427C88E2ADD06A30040E03D /* DetailsMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427C8882ADD06A20040E03D /* DetailsMain.swift */; };
+		1427C88F2ADD06A30040E03D /* Relatedmovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427C8892ADD06A20040E03D /* Relatedmovies.swift */; };
+		1427C8902ADD06A30040E03D /* VIDEOSTREAMINGAPP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427C88A2ADD06A20040E03D /* VIDEOSTREAMINGAPP.swift */; };
+		1427C8942ADD32E60040E03D /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427C8932ADD32E60040E03D /* DetailsView.swift */; };
+		14549C692AD7F10C00E46B9A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14549C682AD7F10C00E46B9A /* Helper.swift */; };
+		14549C6C2AD7FD1E00E46B9A /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14549C6B2AD7FD1E00E46B9A /* SliderView.swift */; };
+		14549C6E2AD80D6100E46B9A /* UpcomingMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14549C6D2AD80D6000E46B9A /* UpcomingMovieView.swift */; };
+		14549C702AD8146900E46B9A /* UpcomingShowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14549C6F2AD8146900E46B9A /* UpcomingShowsView.swift */; };
 		1458C4832AD2D6C2002574DC /* QflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1458C4822AD2D6C2002574DC /* QflixApp.swift */; };
 		1458C4852AD2D6C2002574DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1458C4842AD2D6C2002574DC /* ContentView.swift */; };
 		1458C4872AD2D6C5002574DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1458C4862AD2D6C5002574DC /* Assets.xcassets */; };
@@ -14,6 +32,15 @@
 		1458C4942AD2D6C5002574DC /* QflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1458C4932AD2D6C5002574DC /* QflixTests.swift */; };
 		1458C49E2AD2D6C5002574DC /* QflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1458C49D2AD2D6C5002574DC /* QflixUITests.swift */; };
 		1458C4A02AD2D6C5002574DC /* QflixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1458C49F2AD2D6C5002574DC /* QflixUITestsLaunchTests.swift */; };
+		1458C4B92AD2D769002574DC /* HomeSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1458C4B42AD2D769002574DC /* HomeSections.swift */; };
+		1458C4BF2AD695FD002574DC /* VideoStreamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1458C4BE2AD695FD002574DC /* VideoStreamViewModel.swift */; };
+		1458C4C12AD69610002574DC /* ApiEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1458C4C02AD69610002574DC /* ApiEndPoint.swift */; };
+		1458C4C32AD6995E002574DC /* DSEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1458C4C22AD6995E002574DC /* DSEndpoint.swift */; };
+		14A7FD6B2ADBCB6100949DE0 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A7FD6A2ADBCB6100949DE0 /* DetailsViewModel.swift */; };
+		14A7FD6D2ADBD9FE00949DE0 /* DetailsApiEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A7FD6C2ADBD9FE00949DE0 /* DetailsApiEndPoint.swift */; };
+		560F0A8C24C62B14076097C3 /* Pods_Qflix_QflixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A10877E9F2D932A05FAADCA /* Pods_Qflix_QflixUITests.framework */; };
+		847730AB099CADDA8F12D478 /* Pods_QflixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723322A8D5BA9E6841BE58AF /* Pods_QflixTests.framework */; };
+		9271DC11A9D061CAA6E3FA68 /* Pods_Qflix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA961437987588127FF4045A /* Pods_Qflix.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +61,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1427C8762ADD05CC0040E03D /* UpcomingSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingSeries.swift; sourceTree = "<group>"; };
+		1427C8772ADD05CC0040E03D /* HomeContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContent.swift; sourceTree = "<group>"; };
+		1427C8782ADD05CC0040E03D /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		1427C8792ADD05CC0040E03D /* VideoStreamingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoStreamingApp.swift; sourceTree = "<group>"; };
+		1427C87A2ADD05CC0040E03D /* RecentlyWatched.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyWatched.swift; sourceTree = "<group>"; };
+		1427C87B2ADD05CC0040E03D /* UpcomingMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingMovies.swift; sourceTree = "<group>"; };
+		1427C87C2ADD05CC0040E03D /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		1427C8852ADD06A20040E03D /* Genrelist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Genrelist.swift; path = ../../../../../Downloads/Movie_details/Genrelist.swift; sourceTree = "<group>"; };
+		1427C8862ADD06A20040E03D /* Directorlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Directorlist.swift; path = ../../../../../Downloads/Movie_details/Directorlist.swift; sourceTree = "<group>"; };
+		1427C8872ADD06A20040E03D /* Actorlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Actorlist.swift; path = ../../../../../Downloads/Movie_details/Actorlist.swift; sourceTree = "<group>"; };
+		1427C8882ADD06A20040E03D /* DetailsMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsMain.swift; path = ../../../../../Downloads/Movie_details/DetailsMain.swift; sourceTree = "<group>"; };
+		1427C8892ADD06A20040E03D /* Relatedmovies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Relatedmovies.swift; path = ../../../../../Downloads/Movie_details/Relatedmovies.swift; sourceTree = "<group>"; };
+		1427C88A2ADD06A20040E03D /* VIDEOSTREAMINGAPP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VIDEOSTREAMINGAPP.swift; path = ../../../../../Downloads/Movie_details/VIDEOSTREAMINGAPP.swift; sourceTree = "<group>"; };
+		1427C8932ADD32E60040E03D /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		14549C682AD7F10C00E46B9A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		14549C6B2AD7FD1E00E46B9A /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		14549C6D2AD80D6000E46B9A /* UpcomingMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingMovieView.swift; sourceTree = "<group>"; };
+		14549C6F2AD8146900E46B9A /* UpcomingShowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingShowsView.swift; sourceTree = "<group>"; };
 		1458C47F2AD2D6C2002574DC /* Qflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1458C4822AD2D6C2002574DC /* QflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QflixApp.swift; sourceTree = "<group>"; };
 		1458C4842AD2D6C2002574DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +89,21 @@
 		1458C4992AD2D6C5002574DC /* QflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1458C49D2AD2D6C5002574DC /* QflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QflixUITests.swift; sourceTree = "<group>"; };
 		1458C49F2AD2D6C5002574DC /* QflixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QflixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1458C4B42AD2D769002574DC /* HomeSections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeSections.swift; path = ../../../../Downloads/codegen_6522953bd047a/HomeSections.swift; sourceTree = "<group>"; };
+		1458C4BE2AD695FD002574DC /* VideoStreamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoStreamViewModel.swift; sourceTree = "<group>"; };
+		1458C4C02AD69610002574DC /* ApiEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndPoint.swift; sourceTree = "<group>"; };
+		1458C4C22AD6995E002574DC /* DSEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSEndpoint.swift; sourceTree = "<group>"; };
+		14A7FD6A2ADBCB6100949DE0 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		14A7FD6C2ADBD9FE00949DE0 /* DetailsApiEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsApiEndPoint.swift; sourceTree = "<group>"; };
+		3A10877E9F2D932A05FAADCA /* Pods_Qflix_QflixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qflix_QflixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4261922EF27ADA74D5CA115E /* Pods-Qflix-QflixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qflix-QflixUITests.debug.xcconfig"; path = "Target Support Files/Pods-Qflix-QflixUITests/Pods-Qflix-QflixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5606EC5B711C465B5F9E83E8 /* Pods-QflixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QflixTests.debug.xcconfig"; path = "Target Support Files/Pods-QflixTests/Pods-QflixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E84F7E67299D6910624E586 /* Pods-Qflix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qflix.release.xcconfig"; path = "Target Support Files/Pods-Qflix/Pods-Qflix.release.xcconfig"; sourceTree = "<group>"; };
+		723322A8D5BA9E6841BE58AF /* Pods_QflixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QflixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A516D178F4A45F8144D66F /* Pods-Qflix-QflixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qflix-QflixUITests.release.xcconfig"; path = "Target Support Files/Pods-Qflix-QflixUITests/Pods-Qflix-QflixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BA961437987588127FF4045A /* Pods_Qflix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qflix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB4DD30C2FDEE72D9882A36 /* Pods-QflixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QflixTests.release.xcconfig"; path = "Target Support Files/Pods-QflixTests/Pods-QflixTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8D120A6D7421373C85F83F4 /* Pods-Qflix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qflix.debug.xcconfig"; path = "Target Support Files/Pods-Qflix/Pods-Qflix.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9271DC11A9D061CAA6E3FA68 /* Pods_Qflix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847730AB099CADDA8F12D478 /* Pods_QflixTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +127,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560F0A8C24C62B14076097C3 /* Pods_Qflix_QflixUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1427C8752ADD05AC0040E03D /* DetailsModel */ = {
+			isa = PBXGroup;
+			children = (
+				1427C8872ADD06A20040E03D /* Actorlist.swift */,
+				1427C8882ADD06A20040E03D /* DetailsMain.swift */,
+				1427C8862ADD06A20040E03D /* Directorlist.swift */,
+				1427C8852ADD06A20040E03D /* Genrelist.swift */,
+				1427C8892ADD06A20040E03D /* Relatedmovies.swift */,
+				1427C88A2ADD06A20040E03D /* VIDEOSTREAMINGAPP.swift */,
+			);
+			path = DetailsModel;
+			sourceTree = "<group>";
+		};
+		14549C672AD7F0DB00E46B9A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				14549C682AD7F10C00E46B9A /* Helper.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		14549C6A2AD7FD0200E46B9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14549C6B2AD7FD1E00E46B9A /* SliderView.swift */,
+				14549C6D2AD80D6000E46B9A /* UpcomingMovieView.swift */,
+				14549C6F2AD8146900E46B9A /* UpcomingShowsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		1458C4762AD2D6C2002574DC = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +172,8 @@
 				1458C4922AD2D6C5002574DC /* QflixTests */,
 				1458C49C2AD2D6C5002574DC /* QflixUITests */,
 				1458C4802AD2D6C2002574DC /* Products */,
+				CC93552A0102D90A8D91E1F6 /* Pods */,
+				A0658BFC2F4D41FFA5D3EDC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +190,13 @@
 		1458C4812AD2D6C2002574DC /* Qflix */ = {
 			isa = PBXGroup;
 			children = (
+				14549C6A2AD7FD0200E46B9A /* View */,
+				14549C672AD7F0DB00E46B9A /* Extension */,
 				1458C4822AD2D6C2002574DC /* QflixApp.swift */,
 				1458C4842AD2D6C2002574DC /* ContentView.swift */,
+				1427C8932ADD32E60040E03D /* DetailsView.swift */,
 				1458C4862AD2D6C5002574DC /* Assets.xcassets */,
+				1458C4AC2AD2D6E9002574DC /* Model */,
 				1458C4882AD2D6C5002574DC /* Preview Content */,
 			);
 			path = Qflix;
@@ -127,6 +227,58 @@
 			path = QflixUITests;
 			sourceTree = "<group>";
 		};
+		1458C4AC2AD2D6E9002574DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1427C8752ADD05AC0040E03D /* DetailsModel */,
+				1458C4BD2AD695C1002574DC /* HomeViewModel */,
+				1458C4B42AD2D769002574DC /* HomeSections.swift */,
+				1427C8782ADD05CC0040E03D /* Main.swift */,
+				1427C8772ADD05CC0040E03D /* HomeContent.swift */,
+				1427C87A2ADD05CC0040E03D /* RecentlyWatched.swift */,
+				1427C87C2ADD05CC0040E03D /* Slider.swift */,
+				1427C87B2ADD05CC0040E03D /* UpcomingMovies.swift */,
+				1427C8792ADD05CC0040E03D /* VideoStreamingApp.swift */,
+				1427C8762ADD05CC0040E03D /* UpcomingSeries.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1458C4BD2AD695C1002574DC /* HomeViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1458C4BE2AD695FD002574DC /* VideoStreamViewModel.swift */,
+				14A7FD6A2ADBCB6100949DE0 /* DetailsViewModel.swift */,
+				1458C4C02AD69610002574DC /* ApiEndPoint.swift */,
+				14A7FD6C2ADBD9FE00949DE0 /* DetailsApiEndPoint.swift */,
+				1458C4C22AD6995E002574DC /* DSEndpoint.swift */,
+			);
+			path = HomeViewModel;
+			sourceTree = "<group>";
+		};
+		A0658BFC2F4D41FFA5D3EDC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA961437987588127FF4045A /* Pods_Qflix.framework */,
+				3A10877E9F2D932A05FAADCA /* Pods_Qflix_QflixUITests.framework */,
+				723322A8D5BA9E6841BE58AF /* Pods_QflixTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC93552A0102D90A8D91E1F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8D120A6D7421373C85F83F4 /* Pods-Qflix.debug.xcconfig */,
+				6E84F7E67299D6910624E586 /* Pods-Qflix.release.xcconfig */,
+				4261922EF27ADA74D5CA115E /* Pods-Qflix-QflixUITests.debug.xcconfig */,
+				82A516D178F4A45F8144D66F /* Pods-Qflix-QflixUITests.release.xcconfig */,
+				5606EC5B711C465B5F9E83E8 /* Pods-QflixTests.debug.xcconfig */,
+				BFB4DD30C2FDEE72D9882A36 /* Pods-QflixTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1458C4A32AD2D6C5002574DC /* Build configuration list for PBXNativeTarget "Qflix" */;
 			buildPhases = (
+				71A9A0011495E48FD4674BC6 /* [CP] Check Pods Manifest.lock */,
 				1458C47B2AD2D6C2002574DC /* Sources */,
 				1458C47C2AD2D6C2002574DC /* Frameworks */,
 				1458C47D2AD2D6C2002574DC /* Resources */,
+				B5AD4BCB24668C0569ECED10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1458C4A62AD2D6C5002574DC /* Build configuration list for PBXNativeTarget "QflixTests" */;
 			buildPhases = (
+				D169CB591C60B3DD482D8D7B /* [CP] Check Pods Manifest.lock */,
 				1458C48B2AD2D6C5002574DC /* Sources */,
 				1458C48C2AD2D6C5002574DC /* Frameworks */,
 				1458C48D2AD2D6C5002574DC /* Resources */,
@@ -169,9 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1458C4A92AD2D6C5002574DC /* Build configuration list for PBXNativeTarget "QflixUITests" */;
 			buildPhases = (
+				750E6101B55B22FA08E9FA9D /* [CP] Check Pods Manifest.lock */,
 				1458C4952AD2D6C5002574DC /* Sources */,
 				1458C4962AD2D6C5002574DC /* Frameworks */,
 				1458C4972AD2D6C5002574DC /* Resources */,
+				7FCDD721CA0374BCFB1130E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,13 +409,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71A9A0011495E48FD4674BC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qflix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		750E6101B55B22FA08E9FA9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qflix-QflixUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FCDD721CA0374BCFB1130E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qflix-QflixUITests/Pods-Qflix-QflixUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qflix-QflixUITests/Pods-Qflix-QflixUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qflix-QflixUITests/Pods-Qflix-QflixUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5AD4BCB24668C0569ECED10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qflix/Pods-Qflix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qflix/Pods-Qflix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qflix/Pods-Qflix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D169CB591C60B3DD482D8D7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QflixTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1458C47B2AD2D6C2002574DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1427C8942ADD32E60040E03D /* DetailsView.swift in Sources */,
+				1427C87D2ADD060D0040E03D /* UpcomingMovies.swift in Sources */,
+				14549C692AD7F10C00E46B9A /* Helper.swift in Sources */,
+				1458C4C32AD6995E002574DC /* DSEndpoint.swift in Sources */,
+				14549C6E2AD80D6100E46B9A /* UpcomingMovieView.swift in Sources */,
 				1458C4852AD2D6C2002574DC /* ContentView.swift in Sources */,
+				14A7FD6B2ADBCB6100949DE0 /* DetailsViewModel.swift in Sources */,
+				1427C8832ADD060D0040E03D /* VideoStreamingApp.swift in Sources */,
+				1427C8812ADD060D0040E03D /* UpcomingSeries.swift in Sources */,
+				1427C88C2ADD06A30040E03D /* Directorlist.swift in Sources */,
+				1427C87E2ADD060D0040E03D /* Slider.swift in Sources */,
+				1427C88F2ADD06A30040E03D /* Relatedmovies.swift in Sources */,
 				1458C4832AD2D6C2002574DC /* QflixApp.swift in Sources */,
+				1458C4C12AD69610002574DC /* ApiEndPoint.swift in Sources */,
+				14549C702AD8146900E46B9A /* UpcomingShowsView.swift in Sources */,
+				1427C8802ADD060D0040E03D /* Main.swift in Sources */,
+				14549C6C2AD7FD1E00E46B9A /* SliderView.swift in Sources */,
+				14A7FD6D2ADBD9FE00949DE0 /* DetailsApiEndPoint.swift in Sources */,
+				1427C88B2ADD06A30040E03D /* Genrelist.swift in Sources */,
+				1427C8822ADD060D0040E03D /* HomeContent.swift in Sources */,
+				1427C87F2ADD060D0040E03D /* RecentlyWatched.swift in Sources */,
+				1427C88D2ADD06A30040E03D /* Actorlist.swift in Sources */,
+				1458C4B92AD2D769002574DC /* HomeSections.swift in Sources */,
+				1427C88E2ADD06A30040E03D /* DetailsMain.swift in Sources */,
+				1427C8902ADD06A30040E03D /* VIDEOSTREAMINGAPP.swift in Sources */,
+				1458C4BF2AD695FD002574DC /* VideoStreamViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +695,7 @@
 		};
 		1458C4A42AD2D6C5002574DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D120A6D7421373C85F83F4 /* Pods-Qflix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,6 +725,7 @@
 		};
 		1458C4A52AD2D6C5002574DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E84F7E67299D6910624E586 /* Pods-Qflix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +755,7 @@
 		};
 		1458C4A72AD2D6C5002574DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5606EC5B711C465B5F9E83E8 /* Pods-QflixTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +776,7 @@
 		};
 		1458C4A82AD2D6C5002574DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB4DD30C2FDEE72D9882A36 /* Pods-QflixTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +797,7 @@
 		};
 		1458C4AA2AD2D6C5002574DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4261922EF27ADA74D5CA115E /* Pods-Qflix-QflixUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +816,7 @@
 		};
 		1458C4AB2AD2D6C5002574DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A516D178F4A45F8144D66F /* Pods-Qflix-QflixUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
