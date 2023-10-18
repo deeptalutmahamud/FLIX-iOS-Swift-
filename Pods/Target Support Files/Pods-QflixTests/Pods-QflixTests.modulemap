@@ -1,0 +1,6 @@
+framework module Pods_QflixTests {
+  umbrella header "Pods-QflixTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
